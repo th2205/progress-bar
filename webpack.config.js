@@ -5,7 +5,12 @@ module.exports = {
   mode: "production",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "bundle.js",
+    filename: "index.js",
+    library: {
+      name: "progress",
+      type: "umd",
+      export: "default",
+    },
   },
   module: {
     rules: [
