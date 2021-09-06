@@ -1,3 +1,4 @@
+//wwewe
 class ProgressBar {
   private $body: HTMLBodyElement | null;
   private $progressBar: HTMLDivElement | null;
